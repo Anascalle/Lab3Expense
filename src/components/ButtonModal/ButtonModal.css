@@ -1,0 +1,28 @@
+.container {
+    position: fixed; 
+    right: 20px; 
+    bottom: 20px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: auto; 
+    z-index: 2;
+}
+
+.open-modal-button {
+    background-color: #5555ee;
+    color: white;
+    padding: 10px; 
+    border: none;
+    border-radius: 50%; 
+    cursor: pointer;
+    font-size: 2rem;
+    width: 60px; 
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+

@@ -1,0 +1,53 @@
+.budget-display {
+    margin-top: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    gap: 40px; 
+}
+
+.budget-image {
+    width: 20%; 
+    height: 20%; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.budget-info {
+    font-size: 18px; 
+}
+
+.budget-item {
+    margin: 10px 0; 
+}
+@media (max-width: 768px) {
+    .budget-image {
+        width: 40%; 
+    }
+
+    .budget-info {
+        font-size: 14px; 
+    }
+
+    .budget-display {
+        gap: 15px; 
+    }
+}
+
+@media (max-width: 480px) {
+    .budget-image {
+        width: 55%; 
+    }
+
+    .budget-info {
+        font-size: 15px; 
+       
+    }
+
+    .budget-display {
+        display: flex;
+        flex-direction: column;
+    }
+}
+

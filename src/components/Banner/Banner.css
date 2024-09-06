@@ -1,0 +1,43 @@
+.banner-section {
+    background-color: rgb(84, 84, 234);
+    padding: 2.5%;
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.banner-title {
+    margin: 0;
+    font-weight: 1500;
+}
+
+.reset-button {
+    background-color: rgb(200, 32, 32);
+    color: aliceblue;
+    box-shadow: none;
+    border-color: transparent;
+    padding: 0.7%;
+    border-radius: 10px;
+    font-weight: 1000;
+}
+
+@media (max-width: 768px) {
+    .banner-title {
+        margin-left: 20px;
+    }
+
+    .reset-button {
+        margin-right: 10%;
+    }
+}
+
+@media (max-width: 480px) {
+    .banner-title {
+        font-size: 1.5rem;
+    }
+
+    .reset-button {
+        padding: 0.5%;
+    }
+}
